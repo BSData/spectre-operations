@@ -59,6 +59,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5be-89fd-c690-04e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e8e-82af-021c-cd46" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -82,6 +83,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f5c-fc9e-e848-c388" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="503b-d785-7e07-6234" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -105,6 +107,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d24-a987-241f-7570" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d986-ff6e-b753-b663" type="min"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -2153,7 +2156,74 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="63ab-1408-5f46-58cc" name="Professional Trauma Kit" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="96a6-abff-e364-1a05" name="New InfoLink" hidden="false" targetId="d8d1-4a8d-bb05-95e8" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714e-7c0c-7673-00b8" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb34-3b8c-0044-b506" name="Battlefield Trauma Kit" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7611-83d4-7148-ea9e" name="New InfoLink" hidden="false" targetId="8aa4-af58-4431-c680" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e31-fdce-9b6c-309f" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c71-7f9e-c3c8-607e" name="Stimulant Pack" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="dbe5-ecfa-c488-0c18" name="New InfoLink" hidden="false" targetId="90b0-b2d3-3c8a-1cbf" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f36-230b-f30c-bc54" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -2163,7 +2233,96 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="c2b4-a412-987c-b504" name="Handheld Integrated Target System (HITS)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f692-f401-8acf-fa3c" name="New InfoLink" hidden="false" targetId="2cf5-c9b7-2032-32d8" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec90-2fbe-bac5-1b71" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="708e-8cdd-bd80-35bb" name="Binos" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9873-4e25-3558-f92c" name="New InfoLink" hidden="false" targetId="8d7a-e0fb-6260-4763" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30cd-1271-ffed-370d" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c17-12cd-0c22-ce7d" name="Laser Target Designator (LTD)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c846-6a57-6e62-5cd3" name="New InfoLink" hidden="false" targetId="4071-009c-9678-7460" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa77-b80d-4ee5-b474" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="457e-30fd-d367-1738" name="Long Range Comms" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5a99-7266-2121-8b89" name="New InfoLink" hidden="false" targetId="775b-492b-f2e3-1192" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b25-7772-5db7-bafc" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -2173,7 +2332,248 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="1f44-3373-3a9a-6618" name="Lockpicks" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="39b9-3205-2926-8bfc" name="New InfoLink" hidden="false" targetId="8dc6-3b51-bab2-2174" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7495-5f3c-c146-de5d" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e5e2-6813-36ef-29ee" name="Breaching Charge" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a9b7-1e18-49f6-ee5e" name="New InfoLink" hidden="false" targetId="382e-877e-c9bf-ca95" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c69-3ccc-184b-5e96" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4328-7918-4d54-b8a4" name="Breaching Tools" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="eaac-2766-8cbc-0f09" name="New InfoLink" hidden="false" targetId="01a3-44f5-daa4-4085" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cfa-7a93-6184-f576" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="e15d-01bc-5e08-1a24" name="Ballistic Shield - Long" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7c45-3efa-7ef7-87ff" name="New InfoLink" hidden="false" targetId="cb07-98f6-6878-38fc" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fe-7691-8670-d30a" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c8f2-63a7-8912-efbe" name="Ballistic Shield - Short" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3413-5181-1f81-9afb" name="New InfoLink" hidden="false" targetId="d8ea-0ab3-e6e8-46e6" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d52-c322-1eb8-d01e" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d933-6e66-e287-f87f" name="Rappelling Kit" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="4edc-67fb-6ff6-c506" name="New InfoLink" hidden="false" targetId="ed1d-99bf-347f-0285" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b01-8328-8606-2013" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fe2-f15d-0e21-efc7" name="Climbing Kit" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a075-ab14-1db6-c98f" name="New InfoLink" hidden="false" targetId="6106-f461-a4fd-f745" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c525-b535-9748-70a8" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebe5-5e83-2ac1-7cc8" name="Tactical Ladder" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="075b-bdc4-3409-e49b" name="New InfoLink" hidden="false" targetId="69e0-8431-900f-d94d" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8347-3d7a-6067-19f3" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bdb-141f-ac39-848b" name="Tactical Diving Kit" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="bc95-c122-e732-75a8" name="New InfoLink" hidden="false" targetId="9c87-2680-d702-33fe" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0b-b302-1760-313a" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f4a-2a59-19c3-e320" name="CRBN Suit &amp; Mask" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5a5f-a2ea-6075-9971" name="New InfoLink" hidden="false" targetId="9ddb-2d89-e6c6-ab91" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6424-eae5-f5b8-3583" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4452-f5e8-28aa-8482" name="CRBN Mask" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b45b-85c7-e8ac-fe4e" name="New InfoLink" hidden="false" targetId="db93-0f49-0153-5830" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d9f-cb98-3c34-b7ee" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -2710,8 +3110,72 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <selectionEntries/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-8394-f6d3-4c61" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4a22-4d05-e494-562f" name="Low Density AP Minefield" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6447-47b2-9c6f-7922" name="High Density AP Minefield" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6b62-fae1-3bd0-a648" name="Anti-Tank Mine" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7162-2caf-72bd-7949" name="Claymore" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="1e60-2341-8eb7-ec0a" name="Directional Anti-Vehcile Mine" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
@@ -2720,8 +3184,76 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <selectionEntries/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e6-0138-ccf2-12b2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1734-6395-c5cb-b41c" name="Individual IED or Booby Trap" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="26de-b354-a0f5-eb8c" name="Anti-Vehicle IED" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="baad-92f4-333e-b821" name="Improvised Claymore" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5841-ff13-ebb6-81cb" name="Homemade explosive vest" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0501-6f06-2bf8-8b90" name="Frag Vest" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="698f-e091-4543-5261" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
