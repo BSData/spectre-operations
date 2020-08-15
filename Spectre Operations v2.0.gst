@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations v2.0" revision="8" battleScribeVersion="2.03" authorName="Mark Hepton" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations v2.0" revision="1" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>add website.</comment>
   <readme>ok, Ive done my best :-)
 
