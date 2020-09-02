@@ -2713,11 +2713,11 @@ Militias hits deviate d6&quot;</characteristic>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="986a-19b2-d833-2b02" name="03 - Sub-machine Guns" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="986a-19b2-d833-2b02" name="03 - Sub-machine Guns / PDWs" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="93a3-f36d-caad-e9aa" name="Sub-machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="93a3-f36d-caad-e9aa" name="Sub-machine Gun / PDW" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="9622-9ca8-2376-2abe" name="SMG" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
+                <profile id="9622-9ca8-2376-2abe" name="SMG/PDW" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
                     <characteristic name="RI" typeId="e11c-794f-108e-c8d5">10&quot;</characteristic>
                     <characteristic name="LTY" typeId="fd21-ee26-9ff0-47ca">5+</characteristic>
