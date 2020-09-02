@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="1" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="5" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>ok, Ive done my best :-)
 
 Notes....
@@ -3241,11 +3241,11 @@ Militias hits deviate d6&quot;</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="f22e-4693-cee1-269e" name="10 - Grenade Launchers" publicationId="f638-5549-pubN70313" page="92" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1dfa-4ecd-92c1-fa35" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="3704-90d0-9227-52d3" name="UnderBarrel Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41cd-c98b-83c4-8ef8" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="df55-adb9-c97a-3b0a" name="UnderBarrel Grenade Launcher" page="" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3271,9 +3271,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="0513-125f-b5e1-ca89" name="Pirate Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a71c-3bb8-8d08-1d36" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="57c5-683d-9223-f8ec" name="Pirate Gun" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3295,9 +3292,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="6615-2042-027e-296c" name="Multiple Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a54-703c-3ee6-fca8" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="1a14-180b-cfea-237f" name="Multiple Grenade Launcher" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3318,9 +3312,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="a735-a9bf-3704-827b" name="Airburst Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bee-d24e-c346-78a1" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="cb36-9075-52f2-bc20" name="Airburst Grenade Launcher" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3342,11 +3333,11 @@ Militias hits deviate d6&quot;</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="4afb-7c40-7db5-421d" name="11 - Specialist Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8750-b02a-5c7b-67af" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="3572-f6f4-f9db-661b" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a55-85bd-ad65-3605" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="7872-001f-8040-3572" name="Flamethrower" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3365,9 +3356,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="aef5-9479-ab3e-d652" name="Stun Gun" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcbf-f439-97eb-5299" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="3102-3382-1b78-4a86" name="Stun Gun" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3386,9 +3374,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="96a3-71e7-de36-2c69" name="MANPADS" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e87c-16d6-f287-8a90" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="372f-5a8a-31f2-9690" name="MANPADS" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3407,9 +3392,6 @@ Militias hits deviate d6&quot;</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="4a65-3ccf-3867-926c" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fb-b3db-4d8a-41ac" type="max"/>
-              </constraints>
               <profiles>
                 <profile id="1a04-3816-d46f-47ed" name="Crossbow" hidden="false" typeId="4d8f-5a3f-b69e-2a18" typeName="Weapon">
                   <characteristics>
@@ -3435,6 +3417,9 @@ Militias hits deviate d6&quot;</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="64b3-cb24-5093-8223" name="12 - Shoulder Fired Launchers" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af7-a88f-6604-0c30" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="b83c-d3b9-3ea8-438f" name="RPG HEAT Warhead" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
