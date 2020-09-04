@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="5" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="6" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>ok, Ive done my best :-)
 
 Notes....
@@ -3287,6 +3287,9 @@ Militias hits deviate d6&quot;</characteristic>
                 <infoLink id="266e-208e-59f2-cefc" name="Smoke 2&quot;" hidden="false" targetId="3b68-c70d-e515-eb31" type="rule"/>
                 <infoLink id="6fba-0db8-afe5-df24" name="Compact" hidden="false" targetId="2efd-c0c8-2979-cd7b" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="a55a-e551-43af-6ef9" name="Weapon Attachments" hidden="false" collective="false" import="true" targetId="c873-1fce-562c-3269" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Points" typeId="e707-cc60-8965-91e5" value="6.0"/>
               </costs>
@@ -3307,6 +3310,9 @@ Militias hits deviate d6&quot;</characteristic>
                 <infoLink id="352e-6e5d-37ad-e6fe" name="Smoke 2&quot;" hidden="false" targetId="3b68-c70d-e515-eb31" type="rule"/>
                 <infoLink id="3b23-02fb-c514-f4c3" name="Minimum Range 6&quot;" hidden="false" targetId="42fb-48d2-87a4-876a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="1643-2a48-5843-d476" name="Weapon Attachments" hidden="false" collective="false" import="true" targetId="c873-1fce-562c-3269" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Points" typeId="e707-cc60-8965-91e5" value="15.0"/>
               </costs>
@@ -3326,6 +3332,9 @@ Militias hits deviate d6&quot;</characteristic>
                 <infoLink id="a14e-059a-ad8e-71a9" name="Airburst" hidden="false" targetId="100c-f8be-b8e8-df37" type="rule"/>
                 <infoLink id="aa31-4ccd-7f13-e582" name="Minimum Range 6&quot;" hidden="false" targetId="42fb-48d2-87a4-876a" type="rule"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="d2ee-c87b-228c-fad2" name="Weapon Attachments" hidden="false" collective="false" import="true" targetId="c873-1fce-562c-3269" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="Points" typeId="e707-cc60-8965-91e5" value="20.0"/>
               </costs>
@@ -3925,7 +3934,7 @@ All Range Intervals for attacks and detection are Halved.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="15c4-ceac-4cf5-5e3a" name="Shields" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="15c4-ceac-4cf5-5e3a" name=" Shields" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b41-7dd7-9f54-2090" type="max"/>
           </constraints>
@@ -3965,7 +3974,7 @@ Only Use Sidarms.
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c0af-c590-59d7-1549" name="Body Armour" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c0af-c590-59d7-1549" name="  Body Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9597-0596-3171-cc74" type="max"/>
           </constraints>
