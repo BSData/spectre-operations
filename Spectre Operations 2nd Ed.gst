@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="6" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="f638-5549-7148-b71e" name="Spectre Operations 2nd Ed" revision="9" battleScribeVersion="2.03" authorName="Mark Hepton" authorContact="blackbonefish@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>ok, Ive done my best :-)
 
 Notes....
@@ -73,7 +73,7 @@ Mark.
   <forceEntries>
     <forceEntry id="23bc-a79a-628d-55c7" name="Standard" hidden="false">
       <categoryLinks>
-        <categoryLink id="78af-f47d-500d-cd5d" name="Troops" hidden="false" targetId="4fab-0383-704a-cd0d" primary="false"/>
+        <categoryLink id="78af-f47d-500d-cd5d" name="Infantry" hidden="false" targetId="4fab-0383-704a-cd0d" primary="false"/>
         <categoryLink id="1b16-93d9-b502-0eb7" name="Off Table Assets" hidden="false" targetId="3547-3862-d4c5-0686" primary="false"/>
         <categoryLink id="b230-808c-19f6-55a6" name="Vehicles" hidden="false" targetId="933c-5fe7-34a0-5826" primary="false"/>
         <categoryLink id="2045-d578-e0f9-57b3" name="Homebrew" hidden="false" targetId="bd0f-8e6b-2a5d-d91c" primary="false"/>
@@ -426,6 +426,11 @@ Mark.
       <costs>
         <cost name="Points" typeId="e707-cc60-8965-91e5" value="25.0"/>
       </costs>
+    </entryLink>
+    <entryLink id="4900-f995-8bb4-ba89" name="Brinks Mat Truck (Converted)" hidden="false" collective="false" import="true" targetId="ba62-f51f-7b09-c9d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a441-3f66-a202-527b" name="Homebrew" hidden="false" targetId="bd0f-8e6b-2a5d-d91c" primary="true"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -1372,6 +1377,9 @@ Mark.
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="2f6f-3d71-de17-0c6b" name="Multi Barrelled Smoke Grenade Dischargers (MBSGD)" hidden="false" targetId="ed46-aa22-4f7b-2d85" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
       </costs>
@@ -2612,6 +2620,53 @@ Militias hits deviate d6&quot;</characteristic>
         <categoryLink id="b598-fbeb-59ad-3420" name="New CategoryLink" hidden="false" targetId="3547-3862-d4c5-0686" primary="true"/>
         <categoryLink id="5f78-5169-15e4-97f1" name="New CategoryLink" hidden="false" targetId="3547-3862-d4c5-0686" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba62-f51f-7b09-c9d3" name="Brinks Mat Truck (Converted)" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9c23-7e29-2213-27ab" name="Brinks Mat Truck (Converted)" hidden="false" typeId="165b-6327-4319-6cf1" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="MV" typeId="57a3-c27e-17f2-aeb6">10</characteristic>
+            <characteristic name="AV" typeId="c0f4-cdf6-f8d8-1fa3">7</characteristic>
+            <characteristic name="TT" typeId="4617-0757-1d0b-fc68">8 (9 without gun/gunner)</characteristic>
+            <characteristic name="CW" typeId="5b7b-d63b-62dc-373d">1 Driver
+1 Gunner (if RWS fitted)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9a15-be42-9ff3-de11" name="Fully Armoured Vehicle" hidden="false" targetId="37fb-8bad-dbda-d511" type="rule"/>
+        <infoLink id="7679-8446-0644-1029" name="Move or Fire" hidden="false" targetId="e56f-13c2-82c6-d814" type="rule"/>
+        <infoLink id="c721-8675-abcb-dce7" name="Run Flat Tyres" hidden="false" targetId="4a4c-8ec6-fce5-38f4" type="rule"/>
+        <infoLink id="3b34-9a43-b05b-0897" name="Uprated Engine &amp; Brakes" hidden="false" targetId="05e5-c1e0-a2e5-9c9f" type="rule"/>
+        <infoLink id="b524-5d98-24e7-dba4" name="Bull Bars" hidden="false" targetId="a2f6-5586-7e15-eff1" type="rule"/>
+        <infoLink id="0636-aa82-db81-30dd" name="Firing Ports" hidden="false" targetId="ceaa-2f1d-df8d-de55" type="rule"/>
+        <infoLink id="85c6-1244-cbb2-c8f4" name="All Terrain" hidden="false" targetId="6f00-dbac-b6f1-0de7" type="rule"/>
+        <infoLink id="8561-847a-5607-cdc6" name="Flashbang Dispensers" hidden="false" targetId="6b79-3d5f-98ae-2428" type="rule"/>
+        <infoLink id="9e8b-8a0f-0fff-f9e4" name="Stowage" hidden="false" targetId="adca-84c8-b41c-929b" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6cae-56a7-63e1-49d5" name="RWS" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b96c-0c82-6f94-b5ea" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a37f-2028-9c66-04a4" name="GMG Turret (RWS)" hidden="false" collective="false" import="true" targetId="33d5-3bb8-3dd6-f1dc" type="selectionEntry"/>
+            <entryLink id="17e5-d72a-83f0-3f10" name="HMG Turret (RWS)" hidden="false" collective="false" import="true" targetId="556e-c00d-da7d-4c35" type="selectionEntry"/>
+            <entryLink id="a3ae-286b-cf1b-5405" name="MMG Turret (RWS)" hidden="false" collective="false" import="true" targetId="6329-217c-df20-49ce" type="selectionEntry"/>
+            <entryLink id="d838-c89a-23fa-4391" name="Twin MMG Turret (RWS)" hidden="false" collective="false" import="true" targetId="aebf-bd84-0ef6-3329" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b645-e5ae-bbaf-e2cc" name="MBSGD" hidden="false" collective="false" import="true" targetId="8ca6-c8fb-b0a6-d86f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45b-318b-676e-78ea" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
       </costs>
