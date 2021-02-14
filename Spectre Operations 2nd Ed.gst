@@ -63,6 +63,13 @@ Mark.
         <characteristicType id="f254-73d0-d3db-39d6" name="PEN"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="f907-3a70-1e74-185b" name="Animal">
+      <characteristicTypes>
+        <characteristicType id="b9dc-9db7-adf2-6cd1" name="MV"/>
+        <characteristicType id="3e77-bce3-88cb-73a9" name="DC"/>
+        <characteristicType id="0e30-3785-2330-1157" name="ME"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="4fab-0383-704a-cd0d" name="Infantry" hidden="false"/>
@@ -430,6 +437,11 @@ Mark.
     <entryLink id="4900-f995-8bb4-ba89" name="Brinks Mat Truck (Converted)" hidden="false" collective="false" import="true" targetId="ba62-f51f-7b09-c9d3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a441-3f66-a202-527b" name="Homebrew" hidden="false" targetId="bd0f-8e6b-2a5d-d91c" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b97e-140e-0269-7222" name="Dog" publicationId="f638-5549-pubN70313" page="99" hidden="false" collective="false" import="true" targetId="8a7a-68e7-2b5c-60cb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea48-3b41-f89f-c720" name="Infantry" hidden="false" targetId="4fab-0383-704a-cd0d" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2676,6 +2688,39 @@ Militias hits deviate d6&quot;</characteristic>
         <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8a7a-68e7-2b5c-60cb" name="    Dog" publicationId="f638-5549-pubN70313" page="99" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="50bc-8489-4bc3-2d90" name="Dog" page="99" hidden="false" typeId="f907-3a70-1e74-185b" typeName="Animal">
+          <characteristics>
+            <characteristic name="MV" typeId="b9dc-9db7-adf2-6cd1">9&quot;</characteristic>
+            <characteristic name="DC" typeId="3e77-bce3-88cb-73a9">2</characteristic>
+            <characteristic name="ME" typeId="0e30-3785-2330-1157">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="77c2-7362-35ea-ba09" name="Dog" page="99" hidden="false">
+          <description>Small target  -1 to attacks against Dogs.
+Must be assigned a Handler.
+Must remain in Base contact with handler unless given orders.
+If Handler killed, dog is removed from play.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="dacf-6e94-4f6c-57cf" name="Infantry" hidden="false" targetId="4fab-0383-704a-cd0d" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="233d-52e1-1d4c-ae85" name="Dog Options" hidden="false" collective="false" import="true" targetId="8cdf-4398-b020-a08f" type="selectionEntryGroup">
+          <categoryLinks>
+            <categoryLink id="210c-2b42-556c-0d12" name="Infantry" hidden="false" targetId="4fab-0383-704a-cd0d" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1ae2-ee3a-2da1-e41c" name="   Infantry Weapons" hidden="false" collective="false" import="true">
@@ -4556,6 +4601,92 @@ Burns for 1 turn only</description>
         <entryLink id="884c-ce0d-02d9-a6ed" name="Tank Gun (Light)" hidden="false" collective="false" import="true" targetId="24a6-8a32-1d09-66d5" type="selectionEntry"/>
         <entryLink id="10e3-8b0e-bfd1-d4be" name="Tank Gun (Main)" hidden="false" collective="false" import="true" targetId="ef89-7491-042e-ac2b" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8cdf-4398-b020-a08f" name="Dog Options" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="754a-d85c-9262-f3b8" name="Training" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20fa-d96c-5022-6927" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab4-3478-faea-29e2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8f8c-3b80-48f3-76b1" name="Attack Dog" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="46eb-59d0-be58-fcf8" name="Attack Dog" hidden="false">
+                  <description>During M-TA phase, can be ordered to att target up to 9&quot;.  Move into contact, then fight in CC.
+Dog wins = Kill or Capture. Stay in contact to restrain until Friendly comes to capture.
+Can be recalled during next M-TA phase, freeing the captive.
+Militia Dogs never capture, only kill.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b8d5-6212-8f0a-be23" name="Detection Dog" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="c9c7-f2ba-3241-5c75" name="Detection Dog" hidden="false">
+                  <description>During M-TA phase, can be ordered to Search a 4&quot; diameter area within 9&quot;
+Hidden elements like Troops or IEDs are auto revealed. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2970-4476-a871-15d9" name="Dual Role Dog" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="127f-d802-b22b-13d5" name="Dual Role Dog" hidden="false">
+                  <description>May act as either an Attack or Detection Dog.
+
+During M-TA phase, can be ordered to att target up to 9&quot;.  Move into contact, then fight in CC.
+Dog wins = Kill or capture. Stay in contact to restran until unit comes to capture.
+Can be recalled during next M-TA phase, freeing the captive.
+Militia Dogs never capture, only kill.
+
+During M-TA phase, can be ordered to Search a 4&quot; diameter area within 9&quot;
+Hidden elements like Troops or IEDs are auto revealed. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5968-ab59-506b-cd27" name="Dog Equipment" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5e9d-28ce-9297-0480" name="Advanced Comms" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f0-6f2a-8326-ae81" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5c51-e3f4-467c-a307" name="Advanced Comms" hidden="false">
+                  <description>Handler and Dog connected via radio and video.
+Handler can command dog independently of squad, to Attack or Search.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="44df-9cee-5c88-531d" name="Dog Vest" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60bb-d3a5-f3c8-d565" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="368a-7bdb-89d0-49fb" name="Dog Vest" hidden="false">
+                  <description>-1 to LTY rolls.
+Move reduced to 7&quot;</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Points" typeId="e707-cc60-8965-91e5" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
