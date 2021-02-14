@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04f4-f978-737d-b057" name="Standard" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="f638-5549-7148-b71e" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <categoryEntries>
-    <categoryEntry id="640d-7fea-3f15-e2f0" name="Troops" hidden="false"/>
-    <categoryEntry id="efa5-c47c-5f09-6788" name="Vehicles" hidden="false"/>
-    <categoryEntry id="6956-1fb1-fa8e-e30f" name="Off Table Assets" hidden="false"/>
-  </categoryEntries>
-</catalogue>
